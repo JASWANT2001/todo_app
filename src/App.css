@@ -170,3 +170,53 @@ h1 {
 .edit-box button:hover {
   background-color: #218838;
 }
+
+/* 🚀 Mobile Responsive Styling */
+@media (max-width: 600px) {
+  .todo-wrapper {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .task-input {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .task-input input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .task-input button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .task-content {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .task-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .edit-box input {
+    width: 100%;
+  }
+
+  .edit-box button {
+    width: 100%;
+  }
+}
